@@ -1,0 +1,36 @@
+ActorRef vs Actor Instance
+*Actor instance: is instances of the Actor Class extend Actor Trait
+    + has methods
+    + may have internal state
+* Actor reference = incarnation
+    + created with actorOf
+    + has mailbox and can receive messages
+    + contains one actor instance
+    + contains a UUID
+* Actor path = can be considered as a place for a ActorRef
+    + may or may not have an ActorRef inside
+
+Actor Lifecyle
+* Actors can be
+    + Started
+    + suspended
+    + resumed
+    + restarted
+    + stopped
+* Start = Create a new ActorRef with UUID at a give path
+* Suspend = the actor ref will enqueue but NOT process more messages
+* Resume = the actor ref will continue processing more messages
+* Restarting:
+    + suspend
+    + swap the actor instance of the ActorRef
+        - old actor instance calls preRestart
+        - replace the current actor instance by a new actor instance
+        - new actor instance calls postRestart
+Internal state is destroyed on restart
+* Stopping: Frees the actor ref within a path
+    + The actor instance call postStop
+    + All watching actors receive Terminated(ref)
+    + The ActorRef is released from the path
+The messages in the ActorRef will be lost
+* After stopping, another actor may be created at the same path
+    + different UUID, so different Actor
