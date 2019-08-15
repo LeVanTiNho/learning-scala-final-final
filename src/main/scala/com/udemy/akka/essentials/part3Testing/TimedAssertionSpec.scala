@@ -1,8 +1,9 @@
 package com.udemy.akka.essentials.part3Testing
 
 import akka.actor.{Actor, ActorSystem, Props}
-import akka.testkit.{ImplicitSender, TestKit}
+import akka.testkit.{ImplicitSender, TestKit, TestProbe}
 import org.scalatest.{BeforeAndAfterAll, WordSpecLike}
+
 import scala.concurrent.duration._
 import scala.util.Random
 
@@ -36,6 +37,15 @@ class TimeAssertionSpec extends TestKit(ActorSystem("TimedAssertionSpec"))
 
       assert(results.sum > 5)
     }
+
+    "reply to a test probe in a timely maner" in {
+      // thời gian của within block không ảnh hưởng đến một TestProbe, TestProbe có config riêng
+      within(200 millis) {
+        val testProbe = TestProbe()
+        testProbe.send(workerActor, "work")
+        testProbe.expectMsg(WorkResult(42))
+      }
+    }
   }
 }
 
@@ -48,7 +58,7 @@ object TimedAssertionSpec {
     override def receive: Receive = {
       case "work" =>
         // long computation
-        Thread.sleep(100)
+        Thread.sleep(500)
         sender ! WorkResult(42)
       case "workSequence" =>
         // The WorkerActor will send back a sequence of WorkResult to the sender, so we use the receiveWith method to test this case
