@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03993b9c-9d72-4539-a618-7c4703f3d30d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/learning-scala-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/learning-scala-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/learning-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/learning-scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/TimedAssertionSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/TimedAssertionSpec.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-08affb41-b08d-4a2f-b6ac-d2c9bd3ce2ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-17d33f9a-8e35-477f-bc78-a3919f01ccb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-5829c28b-323e-4bb0-90eb-9d5421785859" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-5b666684-8247-4b9d-af69-d4acd648c241" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-7b374833-1d8c-412a-ab3c-894b4482732f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-7caa0749-9516-415c-ad79-2a27b1b1401f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-92287b58-7a9a-4f4b-b64d-a8c1fa95ffda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-9a989c86-98e4-4aee-ae43-836b028d72ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-d0b7a97b-0214-4f4a-9dae-cf11930fbec8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-335cc980-dcde-4143-b129-48867ab193a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-3da561b7-6886-4dfa-8d1f-ee2d505f6425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-5b2f86b1-aed0-4e1a-ace0-5a9691ba0793" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-619d09e4-c1a3-42c3-97fe-edb1aef5939b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-d7e72580-9294-409d-a9ce-ed8c75b5bf99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-d8f7aaae-5d06-44d8-a663-f9675869fcb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-e388b184-d0ff-4be5-b54b-251f525799e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-e5ecf72e-42b6-4111-b352-9cd452a01ce7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-e8d57517-ce02-4b8f-8184-27b79fd3288c" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -30,21 +42,21 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/BeforeAndAfterAll.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="3315">
               <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="e#55#125#0" expanded="true" />
               </folding>
@@ -52,10 +64,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+              <folding>
+                <element signature="e#48#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/Actor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1853">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestKit.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3060">
+              <caret line="200" column="30" selection-start-line="200" selection-start-column="30" selection-end-line="200" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/SuiteRunner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="408">
               <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
             </state>
           </provider>
@@ -64,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/Runner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="13804">
               <caret line="849" column="6" selection-start-line="849" selection-start-column="6" selection-end-line="849" selection-end-column="6" />
             </state>
           </provider>
@@ -73,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Engine.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="8279">
               <caret line="520" column="6" selection-start-line="520" selection-start-column="6" selection-end-line="520" selection-end-column="6" />
             </state>
           </provider>
@@ -82,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Suite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="18700">
               <caret line="1146" column="10" selection-start-line="1146" selection-start-column="10" selection-end-line="1146" selection-end-column="10" />
             </state>
           </provider>
@@ -102,14 +144,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="956" />
-    <option name="y" value="6" />
-    <option name="width" value="960" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="62" />
+    <option name="y" value="104" />
+    <option name="width" value="1206" />
+    <option name="height" value="929" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -177,13 +220,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="essentials" type="462c0819:PsiDirectoryNode" />
-              <item name="part4FaultTolerance" type="462c0819:PsiDirectoryNode" />
+              <item name="part3Testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -275,6 +319,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3131666321717" />
         <entry key="$PROJECT_DIR$/build.sbt" value="2593843860" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
@@ -350,7 +395,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -358,7 +403,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Learn" order="4" weight="0.3295302" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.7201342" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.37260127" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" weight="0.2444134" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
@@ -417,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestKit.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="481" column="53" selection-start-line="481" selection-start-column="53" selection-end-line="481" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/ActorRef.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -452,34 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Suite.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="1146" column="10" selection-start-line="1146" selection-start-column="10" selection-end-line="1146" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Engine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="520" column="6" selection-start-line="520" selection-start-column="6" selection-end-line="520" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/Runner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="849" column="6" selection-start-line="849" selection-start-column="6" selection-end-line="849" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/SuiteRunner.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/OutcomeOf.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -503,17 +513,69 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/BeforeAndAfterAll.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="3315">
           <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="e#55#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestKit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="200" column="30" selection-start-line="200" selection-start-column="30" selection-end-line="200" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/SuiteRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/Runner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13804">
+          <caret line="849" column="6" selection-start-line="849" selection-start-column="6" selection-end-line="849" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Engine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8279">
+          <caret line="520" column="6" selection-start-line="520" selection-start-column="6" selection-end-line="520" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Suite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18700">
+          <caret line="1146" column="10" selection-start-line="1146" selection-start-column="10" selection-end-line="1146" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="e#48#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
