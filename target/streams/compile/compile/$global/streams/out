@@ -1,2 +1,7 @@
 [debug] Acquiring lock on file C:\Users\LVTNh\Desktop\learning-scala-final-final\project\target\.sbt-compilation-infos\learning-scala-final-final-compile\.sbt-idea-lock ...
+[warn] C:\Users\LVTNh\Desktop\learning-scala-final-final\src\main\scala\com\udemy\akka\essentials\part3Testing\BasicSpec.scala:22:3: a pure expression does nothing in statement position; multiline expressions may require enclosing parentheses
+[warn]   testActor
+[warn]   ^
+[warn] there were 7 feature warnings; re-run with -feature for details
+[warn] two warnings found
 [debug] Releasing lock on file C:\Users\LVTNh\Desktop\learning-scala-final-final\project\target\.sbt-compilation-infos\learning-scala-final-final-compile\.sbt-idea-lock.
