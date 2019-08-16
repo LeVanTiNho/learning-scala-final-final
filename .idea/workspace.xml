@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03993b9c-9d72-4539-a618-7c4703f3d30d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-08affb41-b08d-4a2f-b6ac-d2c9bd3ce2ee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-17d33f9a-8e35-477f-bc78-a3919f01ccb4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-5829c28b-323e-4bb0-90eb-9d5421785859" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-5b666684-8247-4b9d-af69-d4acd648c241" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-7b374833-1d8c-412a-ab3c-894b4482732f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-7caa0749-9516-415c-ad79-2a27b1b1401f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-92287b58-7a9a-4f4b-b64d-a8c1fa95ffda" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-9a989c86-98e4-4aee-ae43-836b028d72ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-compile/compilation-info-d0b7a97b-0214-4f4a-9dae-cf11930fbec8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-335cc980-dcde-4143-b129-48867ab193a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-3da561b7-6886-4dfa-8d1f-ee2d505f6425" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-5b2f86b1-aed0-4e1a-ace0-5a9691ba0793" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-619d09e4-c1a3-42c3-97fe-edb1aef5939b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-d7e72580-9294-409d-a9ce-ed8c75b5bf99" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-d8f7aaae-5d06-44d8-a663-f9675869fcb0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-e388b184-d0ff-4be5-b54b-251f525799e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-e5ecf72e-42b6-4111-b352-9cd452a01ce7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/.sbt-compilation-infos/learning-scala-final-final-test/compilation-info-e8d57517-ce02-4b8f-8184-27b79fd3288c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,18 +26,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/BeforeAndAfterAll.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="209" column="6" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="272">
               <caret line="19" column="39" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="e#55#125#0" expanded="true" />
@@ -67,11 +40,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="1207">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
-                <element signature="e#48#93#0" expanded="true" />
+                <element signature="e#48#107#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestEventListener.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="223" column="95" lean-forward="true" selection-start-line="223" selection-start-column="95" selection-end-line="224" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -144,14 +135,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="62" />
-    <option name="y" value="104" />
-    <option name="width" value="1206" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="640" />
+    <option name="y" value="88" />
+    <option name="width" value="1078" />
     <option name="height" value="929" />
   </component>
   <component name="ProjectView">
@@ -159,6 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,8 +221,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +238,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.SupervisionSpec.A supervior should terminate its child in case of a major error">
+  <component name="RunManager" selected="ScalaTest.InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order">
+    <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="learning-scala" />
+      <setting name="path" value="com.udemy.akka.essentials.part3Testing.InterceptingLogsSpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.udemy.akka.essentials.part3Testing.InterceptingLogsSpec" />
+      <setting name="testName" value="A checkout flow should correctly log the dispatch of an order" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="learning-scala" />
       <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
@@ -287,6 +298,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" />
         <item itemvalue="ScalaTest.SupervisionSpec.A supervior should terminate its child in case of a major error" />
         <item itemvalue="ScalaTest.SupervisionSpec.A supervior should resume its child in case of a minor fault" />
       </list>
@@ -357,12 +369,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SupervisionSpec_A_supervior_should_resume_its_child_in_case_of_a_minor_fault - 2019.08.15 at 00h 55m 47s.xml">
-      <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec_A_supervior_should_resume_its_child_in_case_of_a_minor_fault - 2019.08.15 at 00h 56m 56s.xml">
-      <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="SupervisionSpec_A_supervior_should_resume_its_child_in_case_of_a_minor_fault - 2019.08.15 at 01h 03m 19s.xml">
       <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -384,6 +390,15 @@
     <history-entry file="SupervisionSpec_A_supervior_should_terminate_its_child_in_case_of_a_major_error - 2019.08.15 at 01h 25m 36s.xml">
       <configuration name="SupervisionSpec.A supervior should terminate its child in case of a major error" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.16 at 14h 49m 15s.xml">
+      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.16 at 16h 14m 33s.xml">
+      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.16 at 16h 15m 49s.xml">
+      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +410,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="640" y="88" width="1078" height="929" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -403,7 +418,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Learn" order="4" weight="0.3295302" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.37260127" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.61689585" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" weight="0.2444134" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
@@ -413,7 +428,7 @@
       <window_info anchor="bottom" id="Build" order="5" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.25977653" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.13693467" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -520,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="272">
           <caret line="19" column="39" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="e#55#125#0" expanded="true" />
@@ -570,12 +585,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestEventListener.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="223" column="95" lean-forward="true" selection-start-line="223" selection-start-column="95" selection-end-line="224" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="1207">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
-            <element signature="e#48#93#0" expanded="true" />
+            <element signature="e#48#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
