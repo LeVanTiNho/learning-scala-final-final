@@ -20,7 +20,7 @@ Actor Lifecyle
 * Start = Create a new ActorRef with UUID at a give path
 * Suspend = the actor ref will enqueue but NOT process more messages
 * Resume = the actor ref will continue processing more messages
-* Restarting:
+* Restarting: The actor is restarted when it throws a Throwable object as its reason
     + suspend
     + swap the actor instance of the ActorRef
         - old actor instance calls preRestart

@@ -2,53 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03993b9c-9d72-4539-a618-7c4703f3d30d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part5Infrastructure/TimersSchedulers.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3daaff78cf0a5ac98dd5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3daaff78cf0a5ac98dd5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3daaff78cf0a5ac98dd5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e197f1e0819391a2dbe$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e197f1e0819391a2dbe.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e197f1e0819391a2dbe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learning-scala-final-final-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learning-scala-final-final-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learning-scala-final-final-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/learning-scala-final-final-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-learning-scala-final-final-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/Actor-life-cycle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/Actor-life-cycle.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/learning-scala/learning-scala_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/learning-scala/learning-scala_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/learning-scala/learning-scala_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/learning-scala/learning-scala_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/learning-scala-learning-scala_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,27 +28,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="209">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+              <folding>
+                <element signature="e#55#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part5Infrastructure/TimersSchedulers.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/TheCorePhilosophyOfActorModel.PNG">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/FaultHandling.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="e#55#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-61">
+              <caret line="396" column="5" lean-forward="true" selection-start-line="396" selection-start-column="5" selection-end-line="396" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,8 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestEventListener.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="223" column="95" selection-start-line="223" selection-start-column="95" selection-end-line="224" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="106" column="23" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/Actor-life-cycle.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -108,53 +78,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/Actor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="184">
+              <caret line="594" column="1" selection-start-line="594" selection-start-column="1" selection-end-line="600" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestKit.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/ActorCell.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="200" column="30" selection-start-line="200" selection-start-column="30" selection-end-line="200" selection-end-column="30" />
+            <state relative-caret-position="229">
+              <caret line="562" column="6" selection-start-line="562" selection-start-column="6" selection-end-line="562" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/SuiteRunner.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/forkjoin/ForkJoinTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="259" selection-start-line="259" selection-end-line="259" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/tools/Runner.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/forkjoin/ForkJoinPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13804">
-              <caret line="849" column="6" selection-start-line="849" selection-start-column="6" selection-end-line="849" selection-end-column="6" />
+            <state relative-caret-position="127">
+              <caret line="1978" selection-start-line="1978" selection-end-line="1978" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Engine.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/forkjoin/ForkJoinWorkerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8279">
-              <caret line="520" column="6" selection-start-line="520" selection-start-column="6" selection-end-line="520" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.5-sources.jar!/org/scalatest/Suite.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18700">
-              <caret line="1146" column="10" selection-start-line="1146" selection-start-column="10" selection-end-line="1146" selection-end-column="10" />
+            <state relative-caret-position="339">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
             </state>
           </provider>
         </entry>
@@ -164,6 +125,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>apply</find>
+      <find>Apply</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,12 +137,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/Actor-life-cycle.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="718" />
-    <option name="width" value="1193" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="952" />
+    <option name="width" value="958" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -188,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -252,11 +216,21 @@
               <item name="essentials" type="462c0819:PsiDirectoryNode" />
               <item name="part4FaultTolerance" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learning-scala-final-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-scala-final-final" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="essentials" type="462c0819:PsiDirectoryNode" />
+              <item name="part5Infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -275,10 +249,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order">
-    <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy">
+    <configuration name="SupervisionSpec.A kinder supervisor should not kill children in case it's restarted or escalates failures" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="learning-scala" />
-      <setting name="path" value="com.udemy.akka.essentials.part3Testing.InterceptingLogsSpec" />
+      <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -289,13 +263,13 @@
       <setting name="jrePath" value="" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="com.udemy.akka.essentials.part3Testing.InterceptingLogsSpec" />
-      <setting name="testName" value="A checkout flow should correctly log the dispatch of an order" />
+      <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
+      <setting name="testName" value="A kinder supervisor should not kill children in case it's restarted or escalates failures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="SupervisionSpec.A supervisor should escalate an error when it doesn't know what to do" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="learning-scala" />
       <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
       <setting name="vmparams" value="" />
@@ -309,12 +283,12 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
-      <setting name="testName" value="A supervior should resume its child in case of a minor fault" />
+      <setting name="testName" value="A supervisor should escalate an error when it doesn't know what to do" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupervisionSpec.A supervior should terminate its child in case of a major error" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="SupervisionSpec.A supervisor should restart its child in case of an empty sentence" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="learning-scala" />
       <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
       <setting name="vmparams" value="" />
@@ -328,17 +302,56 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
-      <setting name="testName" value="A supervior should terminate its child in case of a major error" />
+      <setting name="testName" value="A supervisor should restart its child in case of an empty sentence" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupervisionSpec.A supervisor should terminate its child in case of a major error" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="learning-scala" />
+      <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
+      <setting name="testName" value="A supervisor should terminate its child in case of a major error" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="learning-scala" />
+      <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.udemy.akka.essentials.part4FaultTolerance.SupervisionSpec" />
+      <setting name="testName" value="An all-for-one supervisor should apply the all-for-one strategy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" />
-        <item itemvalue="ScalaTest.InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" />
-        <item itemvalue="ScalaTest.SupervisionSpec.A supervior should terminate its child in case of a major error" />
-        <item itemvalue="ScalaTest.SupervisionSpec.A supervior should resume its child in case of a minor fault" />
+        <item itemvalue="ScalaTest.SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" />
+        <item itemvalue="ScalaTest.SupervisionSpec.A kinder supervisor should not kill children in case it's restarted or escalates failures" />
+        <item itemvalue="ScalaTest.SupervisionSpec.A supervisor should escalate an error when it doesn't know what to do" />
+        <item itemvalue="ScalaTest.SupervisionSpec.A supervisor should terminate its child in case of a major error" />
+        <item itemvalue="ScalaTest.SupervisionSpec.A supervisor should restart its child in case of an empty sentence" />
       </list>
     </recent_temporary>
   </component>
@@ -407,35 +420,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SupervisionSpec_A_supervior_should_resume_its_child_in_case_of_a_minor_fault - 2019.08.15 at 01h 03m 43s.xml">
-      <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_A_kinder_supervisor_should_not_kill_children_in_case_it's_restarted_or_escalates_failures - 2019.08.17 at 18h 05m 26s.xml">
+      <configuration name="SupervisionSpec.A kinder supervisor should not kill children in case it's restarted or escalates failures" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="SupervisionSpec_A_supervior_should_resume_its_child_in_case_of_a_minor_fault - 2019.08.15 at 01h 04m 04s.xml">
-      <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_A_kinder_supervisor_should_not_kill_children_in_case_it's_restarted_or_escalates_failures - 2019.08.17 at 18h 06m 43s.xml">
+      <configuration name="SupervisionSpec.A kinder supervisor should not kill children in case it's restarted or escalates failures" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="SupervisionSpec_A_supervior_should_resume_its_child_in_case_of_a_minor_fault - 2019.08.15 at 01h 22m 29s.xml">
-      <configuration name="SupervisionSpec.A supervior should resume its child in case of a minor fault" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 18h 54m 07s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="SupervisionSpec_A_supervior_should_terminate_its_child_in_case_of_a_major_error - 2019.08.15 at 01h 24m 42s.xml">
-      <configuration name="SupervisionSpec.A supervior should terminate its child in case of a major error" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 18h 56m 45s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="SupervisionSpec_A_supervior_should_terminate_its_child_in_case_of_a_major_error - 2019.08.15 at 01h 25m 04s.xml">
-      <configuration name="SupervisionSpec.A supervior should terminate its child in case of a major error" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 18h 58m 48s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="SupervisionSpec_A_supervior_should_terminate_its_child_in_case_of_a_major_error - 2019.08.15 at 01h 25m 36s.xml">
-      <configuration name="SupervisionSpec.A supervior should terminate its child in case of a major error" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 19h 00m 58s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.16 at 14h 49m 15s.xml">
-      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 19h 01m 33s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.16 at 16h 14m 33s.xml">
-      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 19h 04m 06s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.16 at 16h 15m 49s.xml">
-      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 19h 04m 17s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InterceptingLogsSpec_A_checkout_flow_should_correctly_log_the_dispatch_of_an_order - 2019.08.17 at 00h 51m 41s.xml">
-      <configuration name="InterceptingLogsSpec.A checkout flow should correctly log the dispatch of an order" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.08.17 at 19h 04m 22s.xml">
+      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -448,7 +461,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="575" y="0" width="954" height="840" extended-state="0" />
+    <frame x="762" y="0" width="766" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -456,18 +470,18 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Learn" order="4" weight="0.3295302" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.45637584" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.3201133" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" weight="0.2444134" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" weight="0.36452514" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="2" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32960895" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.042372882" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.4180791" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.2122905" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32960895" />
@@ -488,13 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="373" column="73" lean-forward="true" selection-start-line="373" selection-start-column="73" selection-end-line="373" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/Actor-life-cycle.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -575,17 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestEventListener.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="223" column="95" selection-start-line="223" selection-start-column="95" selection-end-line="224" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/Actor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -624,23 +624,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part3Testing/InterceptingLogsSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/TheCorePhilosophyOfActorModel.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/Mailbox.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="234" column="39" selection-start-line="234" selection-start-column="39" selection-end-line="234" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/forkjoin/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/forkjoin/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1978" selection-start-line="1978" selection-end-line="1978" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/dispatch/forkjoin/ForkJoinWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/ActorCell.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="562" column="6" selection-start-line="562" selection-start-column="6" selection-end-line="562" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/Actor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="594" column="1" selection-start-line="594" selection-start-column="1" selection-end-line="600" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.12/srcs/akka-testkit_2.12-2.5.13-sources.jar!/akka/testkit/TestEventListener.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="106" column="23" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.13-sources.jar!/akka/actor/FaultHandling.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="396" column="5" lean-forward="true" selection-start-line="396" selection-start-column="5" selection-end-line="396" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/Actor-life-cycle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part4FaultTolerance/SupervisionSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="209">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
           <folding>
-            <element signature="e#55#93#0" expanded="true" />
+            <element signature="e#55#125#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/udemy/akka/essentials/part5Infrastructure/TimersSchedulers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
