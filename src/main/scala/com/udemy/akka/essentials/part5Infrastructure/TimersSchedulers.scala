@@ -1,6 +1,6 @@
 package com.udemy.akka.essentials.part5Infrastructure
 
-import akka.actor.{Actor, ActorLogging, ActorSystem, Cancellable, Props}
+import akka.actor.{Actor, ActorLogging, ActorSystem, Cancellable, Props, Timers}
 
 import scala.concurrent.duration._
 
@@ -17,6 +17,9 @@ object TimersSchedulers extends App {
   }
 
   val system = ActorSystem("SchedulersTimerDemo")
+
+/*
+
   val simpleActor = system.actorOf(Props[SimpleActor])
 
   // A ActorSystem object has its own logger
@@ -46,6 +49,10 @@ object TimersSchedulers extends App {
     routine.cancel
   }
 
+
+ */
+
+
   /*
    Things to bear in mind:
     - Don't use unstable references inside scheduled actions
@@ -53,4 +60,82 @@ object TimersSchedulers extends App {
     - Schedules are not really millisecond precise and they aren't useable for long term
    */
 
+  /**
+    * Exercise: Implement a self-closing actor
+    *   - If the actor receive a message (anything), you have 1 second to send it another message
+    *   - If the window expires, the actor will stop itself!
+    *   - If you send another message, the time window is reset
+    */
+  /*
+  import system.dispatcher
+  class SelfClosingActor extends Actor with ActorLogging {
+    var schedule: Cancellable = createTimeoutWindow
+
+    def createTimeoutWindow: Cancellable = {
+      context.system.scheduler.scheduleOnce(1 second) {
+        self ! "timeout"
+      }
+    }
+
+    override def receive: Receive = {
+      case "timeout" =>
+        // stop itself
+        log.info("Stopping myself")
+        context.stop(self)
+      case message =>
+        log.info(s"Received $message, staying alive")
+        schedule.cancel
+        schedule = createTimeoutWindow
+    }
+  }
+
+  val selfClosingActor = system.actorOf(Props[SelfClosingActor], "selfClosingActor")
+  system.scheduler.scheduleOnce(250 millis) {
+    selfClosingActor ! "ping"
+  }
+
+  system.scheduler.scheduleOnce(2 seconds) {
+    system.log.info("sending pong to the self-closing actor")
+    selfClosingActor ! "pong"
+  }
+  /
+
+   */
+
+  /**
+    * Scheduler khó kiểm soát khi actor đã stoped hay restarted
+    * Đối với trường hợp ta cần scheduling messages để gửi bên trong một actor thì da dùng timer
+    */
+
+  case object TimerKey
+  case object Start
+  case object Reminder
+  case object Stop
+
+  class TimerBasedHeartbeatActor extends Actor with ActorLogging with Timers {
+    // Mỗi một timer cần một key có kiểu object
+    // singleTimer là timer chỉ gửi message một lần
+    timers.startSingleTimer(TimerKey, Start, 500 millis)
+
+    override def receive: Receive = {
+      case Start =>
+        log.info("Bootstrapping")
+
+        // startPeriodicTimer -> gửi messages theo chu kì
+        // khi ta gọi startPeriodTimer với key là TimerKey thì timer đang giữ key này sẽ bị cancel
+        timers.startPeriodicTimer(TimerKey, Reminder, 1 second)
+      case Reminder =>
+        log.info("I am alive")
+      case Stop =>
+        log.warning("Stopping!")
+        timers.cancel(TimerKey)
+        context.stop(context.self)
+    }
+
+    import system.dispatcher
+    val timerBasedHeartbeatActor = system.actorOf(Props[TimerBasedHeartbeatActor], "timerActor")
+    system.scheduler.scheduleOnce(5 seconds) {
+      timerBasedHeartbeatActor ! Stop
+    }
+  }
 }
